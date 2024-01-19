@@ -12,4 +12,3 @@ class Solution:
             return max(depthSearch(root.left, depth + 1), depthSearch(root.right, depth + 1))
 
         return depthSearch(root,0)
-        
